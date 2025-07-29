@@ -1,0 +1,118 @@
+.form {
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.13);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 50px 35px;
+}
+
+.form * {
+    font-family: "Nunito 400", sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+}
+
+.title {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Nanito 600", sans-serif;
+}
+
+.form_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.form_group>label {
+    display: block;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.form_group>input,
+.form_group>select {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.buttons {
+    margin-top: 50px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.submit_button,
+.cancel_button {
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.option {
+    background-color: #08070F;
+}
+
+.error {
+    color: red;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.user_agreement_checkbox_input {
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: fixed;
+    z-index: -1;
+}
+
+.grad_one {
+    background: #833AB4;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    top: 150px;
+    left: 300px;
+}
+
+.grad_two {
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    bottom: 30px;
+    right: 200px;
+    width: 450px;
+    height: 450px;
+}
+
+.grad_three {
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    width: 200px;
+    height: 200px;
+    top: 50px;
+    right: 500px;
+}
+
+.readonly {
+    cursor: not-allowed;
+    color: #666;
+}

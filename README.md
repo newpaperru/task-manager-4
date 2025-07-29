@@ -1,0 +1,1 @@
+svgr, react-hook-form, zod, @hookform/resolvers zod
